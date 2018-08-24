@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/configuration.iml" filepath="$PROJECT_DIR$/configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration_main.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration_main.iml" group="configuration" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/configuration_test.iml" filepath="$PROJECT_DIR$/.idea/modules/configuration_test.iml" group="configuration" />
+    </modules>
+  </component>
+</project>
