@@ -3,6 +3,7 @@ package com.fleetmanagement.configuration.dao;
 import com.fleetmanagement.configuration.entity.Organisation;
 import org.springframework.stereotype.Repository;
 
+/*
 @Repository
 public class RDSOrganisationDAO implements OrganisationDAO {
 
@@ -12,3 +13,4 @@ public class RDSOrganisationDAO implements OrganisationDAO {
         System.out.println("Organisation: "+organisation.toString());
     }
 }
+*/

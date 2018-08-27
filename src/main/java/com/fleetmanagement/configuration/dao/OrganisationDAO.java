@@ -3,8 +3,10 @@ package com.fleetmanagement.configuration.dao;
 import com.fleetmanagement.configuration.entity.Organisation;
 import org.springframework.stereotype.Repository;
 
-@Repository
-public interface OrganisationDAO {
+import org.springframework.data.repository.CrudRepository;
 
-    void create(Organisation organisation);
+@Repository
+public interface OrganisationDAO extends CrudRepository<Organisation, Integer>{
+
+//    void create(Organisation organisation);
 }
