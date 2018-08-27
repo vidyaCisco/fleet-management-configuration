@@ -16,6 +16,6 @@ public class OrganisationService {
     }
 
     public void createOrganisation(Organisation organisation) {
-        //organisationDAO.
+        organisationDAO.save(organisation);
     }
 }

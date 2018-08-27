@@ -16,7 +16,7 @@ public class Organisation {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @Column(name="id")
+    @Column(name="orgID", columnDefinition = "Integer(3) default '1'")
     private int orgID;
 
     private String orgName;
